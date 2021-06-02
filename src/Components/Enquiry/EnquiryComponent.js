@@ -46,7 +46,7 @@ const EnquiryComponent = () => {
           </div>
           <Fade bottom>
             <button
-              className="bg-primary text-white p-2 px-4 border-2 border-primary rounded font-semibold transition-all hover:bg-white hover:text-primary"
+              className="bg-primary text-white p-2 px-4 border-2 border-primary rounded font-semibold transition-all"
               type="submit"
             >
               Send message
