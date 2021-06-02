@@ -12,9 +12,9 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         aboutPattern: "url('/src/Assets/bg-2.jpg')",
-        journey1: "url('/src/Assets/bg-1.jpg')",
-        journey2: "url('/src/Assets/bg-3.jpg')",
-        journey3: "url('/src/Assets/bg-4.jpg')",
+        // journey1: "url('/src/Assets/bg-1.jpg')",
+        // journey2: "url('/src/Assets/bg-3.jpg')",
+        // journey3: "url('/src/Assets/bg-4.jpg')",
       }),
     },
   },

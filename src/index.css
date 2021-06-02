@@ -31,6 +31,24 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.journey1 {
+  background-image: url("./Assets/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.journey2 {
+  background-image: url("./Assets/bg-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.journey3 {
+  background-image: url("./Assets/bg-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .MuiPaper-elevation1 {
   box-shadow: none !important;
 }
