@@ -4,21 +4,25 @@ import Fade from "react-reveal/Fade";
 
 const AboutData = [
   {
+    id: 1,
     title: "Eligibility",
     description:
       "18 years or older participants with symptoms of MDS or anaemia",
   },
   {
+    id: 2,
     title: "Monthly Check-ups",
     description:
       "A check-up every third weekend of the month to keep track of patient's health and recovery.",
   },
   {
+    id: 3,
     title: "Treatment Period",
     description:
       "The total treatment period of this study is about 20-24 weeks.",
   },
   {
+    id: 4,
     title: "Compensation",
     description:
       "Participants might receive up to $300 for taking part in the study",
@@ -38,8 +42,12 @@ const AboutComponent1 = () => {
           Here are some key highlights of our study
         </p>
         <div className="grid grid-cols-2 gap-4 w-3/5">
-          {AboutData.map(({ title, description }) => (
-            <AboutSubComponent title={title} description={description} />
+          {AboutData.map(({ id, title, description }) => (
+            <AboutSubComponent
+              key={id}
+              title={title}
+              description={description}
+            />
           ))}
         </div>
       </div>

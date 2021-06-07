@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 const FeaturesSubComponent = ({ title, description, image, bg, reverse }) => {
+  // console.log({ title, description, image, bg, reverse });
   return (
     <div className={`${bg} bg-opacity-40`}>
       <div
